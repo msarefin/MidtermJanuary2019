@@ -62,34 +62,62 @@ A. OOP stands for Object Oriented Programming. There are 4 concepts
 What is Java Package and which package is imported by default?
 A.  A package is a namespace that organizes a set of related classes and interfaces. java.lang package is imported by default.
 What is API? Name list of API that you have used so far.
-A.  Application Programming Interface.
+A.  Application Programming Interface is a set of functions and procedures allowing the creation of applications that access the features or data of an operating system, application, or other service.. Google Sheet API, JDBC API, Selenium API
 Does java support multiple inheritance, explain why or why not?
+A. Java only supports single-line multi-level inheritance
 What is method overloading and when it happens?
+A. methods and constructor can be over loaded within the same class. The same methods or constructor is recreated with different parameters
 Explain exceptions in java and how to handle it.
+A. exceptions are error that prevent application for running smoothly. exceptions can be either compile time or run time. compiletime excpetins must be resolved while writing the code where as runtime exceptions can be handeled using try-catch block or throws
 What is static keyword in java? How it has been used in variables and methods ?
+A. static keyword allows the access of methods and variables without the creation of instance of the class.
 What is final and how it has been used variables and methods?
+A. final variables and methods prevents the overriding of the methods and update of variables. functions and values once set are final and unchangable
 What is final, finally and finalize?
+A. final prevents changes to mathods and variables. finally block always runs at the end of a try catch block regardless of the success or failure of the try block. finalize is used to perform cleanup operation before garbage collection
 What is a constructor ?
+A.  Constructor is a block of code that initialize the object
 Can we have multiple constructors in a class?
+A. Yes a class an have multiple overloaded constructors.
 If we don't have a constructor declared, what is called during the object creation?
+A. The default constructor is called if no constructor is declared.
 What is "this" keyword in java ?
+A. this is a referance variable that refers to the current object.
 What is "super" keyword in java? How many possible way can you use?
+A. super is a referance variable that refers to the parent class object.
 What is JVM stand for ?
+A. Java Virtual Machine
 Is JVM platform independent?
+A.  Java Virtual Machine is platform independent
 What version of java are you using?
+A. java 8
 What is JAR stand for ?
+A Java Archive
 What is the difference between JDK and JVM?
+A. JDK contians JVM which is part of JRE
 What is the difference between JVM and JRE?
+A. JVM contains JRE
 What is compile time and run time?
+A. Compile time : time when the jave file is compiled to class. Runtime: time when the class file is run on JVM
 What is heap?
+A.  Heap is part of the JVM memory where objects are created.
 How java manage it's memory?
+A. Java manages memory with the help of garbage collector that releases any objects and variables that are no longer needed
 What is the difference between String, StringBuffer and StringBuilder?
+A. String is immutable whereas StringBuffer and StringBuider are mutable classes. StringBuffer is thread safe and synchronized whereas StringBuilder is not.
+StringBuilder is more faster than StringBuffer. String concat + operator internally uses StringBuffer or StringBuilder class.
 What is Singleton class?
+A.  Singleton class is design pattern that allows the creation of only one instance of the class.
 What is Serialization and Deserialization?
+A. Serialization is a mechanism of converting the state of an object into a byte stream. Deserialization is the reverse process where the byte stream is used to recreate the actual Java object in memory.
 when to use transient variable in java?
+A. Transient variables are non static instance varibles that prevents serializations and deserialization. So if you don't want to store the value of a variable in a file you use transient variable.
 Difference between while and do..while loop?
+A. while loop only executes the code when the condition is true where as Do-while executed the code at least once even if the condition if false.
 What is Enum?
+A. Enumerates a goup of named constants in a class.
 What is Iterator?
+A.
 Which one will take more memory, an int or Integer?
 Why is String Immutable in Java?
 What is constructor chaining in Java?
@@ -107,12 +135,3 @@ Difference between jUnit and testNG?
 What are the dependencies for this project?
 what is dependency injection in java?
 What is static binding and dynamic binding?
-
-
-
-
-
-
-
-
-
