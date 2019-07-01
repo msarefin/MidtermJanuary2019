@@ -46,11 +46,23 @@ A. Object class is the super class of all classes.
 What is difference between path and classpath variables?
 A. path is an environment variable used by the OS to find the executables. Classpath is an environment variable used by java compiler to find find the path
 What is the difference between an Interface and Abstract class?
+A. Interface contains only abstract methods and final variables Abstract class contains both abstract methods and concrete methods.
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A. You cannot create objects of a interface or Abstract class but you can create referance variables of them. You can also create anynomous classes of them. You can implement interface and extend Abstract classes to implement the abstract methods and variables.
 what is Access Specifier?
+A. Access specifiers determines the accessability of class and mthods across the project. class has two levels of accessability where as methods and nested classes have four levels of accessability
 What is OOP ? Define each feature of java OOP.
+A. OOP stands for Object Oriented Programming. There are 4 concepts
+- Abstraction: Abstract class and interface provides abstract methods without their implementation
+- Encapsulation: Hides the data manipulation with the help of private methods, variabes and inner classes
+- Inheritance: enables classes to acquire the features of other classes without the need of recreating them
+- Polymorphism: Methods can be of various forms that have different implementations. There are two form of polymorphism:
+    -- Overloading: Same method or constructor within the same class with different parameters or different number of parameters
+    -- Overriding: Same method with the same parameter but different implementation between parent and child classes.
 What is Java Package and which package is imported by default?
+A.  A package is a namespace that organizes a set of related classes and interfaces. java.lang package is imported by default.
 What is API? Name list of API that you have used so far.
+A.  Application Programming Interface.
 Does java support multiple inheritance, explain why or why not?
 What is method overloading and when it happens?
 Explain exceptions in java and how to handle it.
