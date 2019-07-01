@@ -1,28 +1,50 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A. Formal language that us used to create programs
 
 
 
 
 What jdk contains or composed of and define each components?
-A.
-
-
-
-
-
+A. JDK is composed of
+- javac - compiles java file to class files
+- javadoc - used to create documentation
+- javap - show the implementation of a class and its methods
+- jdb - helps debug the codes
+- JRE
+    --Class loader - loads the class to JVM
+    --JVM
+        ---Bytecode verifier - points to memory where the class has been loaded
+        ---garbage collector - releases objects and variables that are no longer needed
+        ---security manager - imposes restrictions
+        ---Execution engine(JIT) - converts byte code to machine language
 What is IDE?
-A.
+A.  IDE sntand for integrated development environment. Is is a software that allows programmers to code and compile and test software applications
 What are the IDEs available in the market to support java?
+A.  NetBeans, Eclipse, and Intellij
 Explain the entire java life cycle.
+A.  The java applications are codes and saved as .java files. The javac converts the .java to .class files.
+    The class files are loaded to jvm by the class loader and saves the byte code to the method area.(Only one method area per JVM and it's a shared resource)
+    in the heap objects are created for each .class by the JVM
+    temperory variables are stored in the stack
+    PC register keeps track of instruction that are to be executed
+    Native method stack has acces to the runtime data area for the virtual machine.
+    native method interface enables java code to call or be called by the native application which are specific to the hardware and the OS
+    Garbage collector releases objects and variables that are no longer needed by the application.
+
 what is class?
+A. Class is blue print that defines the objects.
 What is object?
+A.  Objects are instance of class that have attributes and functions defined by the class
 What is the entry point of an application?
+A. The main method is the entry point of a java application
 Why main is static?
+A. main method is static so that JVM has can access it without having to create an instance of the class
 Which class is the superclass of all classes?
+A. Object class is the super class of all classes.
 What is difference between path and classpath variables?
+A. path is an environment variable used by the OS to find the executables. Classpath is an environment variable used by java compiler to find find the path
 What is the difference between an Interface and Abstract class?
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 what is Access Specifier?
