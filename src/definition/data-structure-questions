@@ -1,39 +1,146 @@
 Please answer the below Data Structure Questions:
 
-why do we need data structure?
-A.
 
+1.	why do we need data structure?
+a.	Data Structure is needed to store and organize information efficiently and effectively so that it can be retreived most productively.
 
-What are the various operations that can be performed on different Data Structures?
-List out the areas in which data structures are applied extensively?
-what is an Array?
-what is the difference between the Array and ArrayList?
-what is LinkedList?
-How is an Array different from Linked List?
-what is queue?
-what is stack?
-what is FIFO and LIFO?
-what is the order of complexity?
-what is the best case to search an element from an array?
-what is the worst case to search an element from an array?
-what is tree in data structure?
-what is graph in data structure?
-what is the difference between the HashTable and HashMap?
-What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
-How HashMap works in java?
-What is ArrayIndexOutOfBoundsException in java? When it occurs?
-What are the different ways of copying an array into another array?
-What is difference between an array and a linked list?
-What is DFS and BFS?
-What is Recursion?
-What are linear and non linear data Structures?
-What is Big-(O)-notation?
-Outlined different kind of sorting algorithm with time complexity?
+2.	What are the various operations that can be performed on different Data Structures?
+a.	Serach , traverse, insert , update and delete
 
-Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
-  a)In terms of Accessing element.
-  b)In terms of Inserting element.
-  c)In terms of Searching element.
-  d)In terms of Removing element.
+3.	List out the areas in which data structures are applied extensively?
+a.	Databases management system, Web Applications
 
+4.	what is an Array?
+a.	Array is homogeneous collection of elements.
+
+5.	what is the difference between the Array and ArrayList?
+a.	Array is fixed size and only hold homogeneous elements ArrayList is growable and holds hetrogeneous elements. Array can hold both primitives and objects where as ArrayList can hold only objects. ArrayList is part of the collection framework.
+
+6.	what is LinkedList?
+a.	LinkedList hold elements along with the address to the both the previous and the next element.
+
+7.	How is an Array different from Linked List?
+a.	Array is fixed size and is index based. LinkedList is grwoable and is part of the collection framwork. unlikeArraylist linked list holds hetrogeneous data type
+
+8.	what is queue?
+a.	Queue is an interface which entends the collection interface and is based on the concept of FIFO. This means the elements can be retreived in the order of insertion
+
+9.	what is stack?
+a.	Stack is a class in collection which incorporated the concept LIFO. This means the elements can beretreived in the reverse order of insertion.
+
+10.	what is FIFO and LIFO?
+a.	First in First Out  and Last in First Out
+
+11.	what is the order of complexity?
+a.	Complexity of an algorithm is a measure of the amount of time and/or space required by an algorithm for an input of a given size (n)
+
+12.	what is the best case to search an element from an array?
+a.	O(1)
+
+13.	what is the worst case to search an element from an array?
+a.	O(1)
+
+14.	what is tree in data structure?
+a.	A Binary Tree is represented as a single parent that has two child elements. A full binary tree is a tree in which every node other than the leaves has two children. A complete binary tree is a full binary tree upto h-1 where the elements are filled from left to right.
+15.	what is graph in data structure?
+a.	A Graph is a non-linear data structure consisting of nodes and edges. The nodes are sometimes also referred to as vertices and the edges are lines or arcs that connect any two nodes in the graph.
+
+16.	what is the difference between the HashTable and HashMap?
+a.	HashMap is non synchronized. It is not-thread safe and can’t be shared between many threads without proper synchronization code whereas Hashtable is synchronized. It is thread-safe and can be shared with many threads. HashMap allows one null key and multiple null values whereas Hashtable doesn’t allow any null key or value. HashMap is generally preferred over HashTable if thread synchronization is not needed
+
+17.	What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+a.	RDBMS use array, Network use Graph , Hierarchical data model use tree
+
+18.	How HashMap works in java?
+a.	Hashmap use the key value pair to store data
+
+19.	What is ArrayIndexOutOfBoundsException in java? When it occurs?
+a.	This exception is thrown when the number of elements being added is larger than the array size and lower than 0.
+
+20.	What are the different ways of copying an array into another array?
+a.	Manually using for loop
+b.	Arrays.copyOf()
+c.	System.arraycopy()
+d.	Object.clone()
+21.	What is difference between an array and a linked list?
+a.	Array is fixed size and is index based. LinkedList is grwoable and is part of the collection framwork. unlikeArraylist linked list holds hetrogeneous data type
+
+22.	What is DFS and BFS?
+a.	The major difference between BFS and DFS is that BFS proceeds level by level while DFS follows first a path form the starting to the ending node (vertex), then another path from the start to end, and so on until all nodes are visited
+
+23.	What is Recursion?
+a.	The process by which the method calls itself until th econdition is false
+
+24.	What are linear and non linear data Structures?
+a.	Linear data structures represent array data in a linear format. Non –linear data strcucture represents data in non liner format.
+
+25.	What is Big-(O)-notation?
+a.	the big O notation is the formal way to express the upper bound of an algorithm’s running time. It measures the worst case time complexity or the longest time an algorithm can possible take to complete.
+
+26.	Outlined different kind of sorting algorithm with time complexity?
+a.	Selection - O(n^2)
+b.	Bubble sort - O(n^2)
+c.	Insertion sort - O(n^2)
+d.	Heap sort - O(n log(n))
+e.	Quick sort - O(n^2)
+f.	Merge sort - O(n log(n))
+g.	Bucket sort - O(n^2)
+
+27.	Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+
+Data Structure	Time Complexity	Space Complexity
+	    Average	                                                Worst
+	    Access	    Search	    Insertion	    Deletion
+Array
+        Θ(1)	    Θ(n)	    Θ(n)	        Θ(n)	        O(n)
+Stack
+        Θ(n)	    Θ(n)	    Θ(1)	        Θ(1)	        O(n)
+Queue
+        Θ(n)	    Θ(n)	    Θ(1)	        Θ(1)	        O(n)
+Singly-Linked List
+        Θ(n)	    Θ(n)	    Θ(1)	        Θ(1)	        O(n)
+Doubly-Linked List
+        Θ(n)	    Θ(n)	    Θ(1)	        Θ(1)	        O(n)
+Skip List
+        Θ(log(n))	Θ(log(n))	Θ(log(n))	    Θ(log(n))	    O(n log(n))
+Hash Table
+        N/A	        Θ(1)	    Θ(1)	        Θ(1)	        O(n)
+Binary Search Tree
+        Θ(log(n))	Θ(log(n))	Θ(log(n))	    Θ(log(n))	    O(n)
+Cartesian Tree
+        N/A	        Θ(log(n))	Θ(log(n))	    Θ(log(n))	    O(n)
+B-Tree
+        Θ(log(n))	Θ(log(n))	Θ(log(n))	    Θ(log(n))	    O(n)
+Red-Black Tree
+        Θ(log(n))	Θ(log(n))	Θ(log(n))	    Θ(log(n))	    O(n)
+AVL Tree
+        Θ(log(n))	Θ(log(n))	Θ(log(n))	    Θ(log(n))	    O(n)
+
+Sorting Algorithm
+Algorithm	Time Complexity	Space Complexity
+	            Best	        Average	            Worst	        Worst
+Quicksort
+                Ω(n log(n))	    Θ(n log(n))	        O(n^2)	        O(log(n))
+Mergesort
+                Ω(n log(n))	    Θ(n log(n))	        O(n log(n))	    O(n)
+Heapsort
+                Ω(n log(n))	    Θ(n log(n))	        O(n log(n))	    O(1)
+Bubble Sort
+                Ω(n)	        Θ(n^2)	            O(n^2)	        O(1)
+Insertion Sort
+                Ω(n)	        Θ(n^2)	            O(n^2)	        O(1)
+Selection Sort
+                Ω(n^2)	        Θ(n^2)	            O(n^2)	        O(1)
+Tree Sort
+                Ω(n log(n))	    Θ(n log(n))	        O(n^2)	        O(n)
+Shell Sort
+                Ω(n log(n))	    Θ(n(log(n))^2)	    O(n(log(n))^2)	O(1)
+Bucket Sort
+                Ω(n+k)	        Θ(n+k)	            O(n^2)	        O(n)
+Radix Sort
+                Ω(nk)	        Θ(nk)	            O(nk)	        O(n+k)
+Counting Sort
+                Ω(n+k)	        Θ(n+k)	            O(n+k)	        O(k)
+Cubesort
+                Ω(n)	        Θ(n log(n))	        O(n log(n))	    O(n)
 
